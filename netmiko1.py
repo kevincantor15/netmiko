@@ -30,7 +30,7 @@ device3 = {
 # config_commands = ["conf t", "int lo0", "ip add 1.1.1.1 255.255.255.255"]
 
 # Open and read the configuration file. Read and split lines from config file into a list
-with open("config1.txt", "w") as f:
+with open("config1.txt", "r") as f:
 	configs = f.read().splitlines()
 	print(configs)
 	
